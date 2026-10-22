@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Generated index
+notes.faiss
+notes_meta.json
+
+# Large / private files (keep folders, ignore contents)
+models/*
+!models/.gitkeep
+notes/*
+!notes/.gitkeep
+*.gguf
+*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
